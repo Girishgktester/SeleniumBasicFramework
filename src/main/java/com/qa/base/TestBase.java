@@ -3,7 +3,6 @@ package com.qa.base;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.time.Duration;
 import java.util.Properties;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -17,7 +16,6 @@ public class TestBase {
 	public static Properties prop;
 	public static WebDriverListener eventListener;
 	
-	
 	public TestBase(){
 		try {
 			prop = new Properties();
@@ -30,7 +28,6 @@ public class TestBase {
 		}
 	}
 	
-	@Parameters({"url"})
 	public static void initialization(){
 		String browserName = prop.getProperty("browser");
 		if (browserName.equals("chrome")) {
