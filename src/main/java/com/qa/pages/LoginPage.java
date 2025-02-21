@@ -30,9 +30,9 @@ public class LoginPage extends TestBase {
 		
 		String userName = prop.getProperty("username");
 		String password = prop.getProperty("password"); 
-		loginBtn.click();
-		enterEmail.sendKeys(userName);          
-		enterPassword.sendKeys(password);
-		loginButtonWithUserNamePassword.click();
+//		loginBtn.click();
+//		enterEmail.sendKeys(userName);          
+//		enterPassword.sendKeys(password);
+//		loginButtonWithUserNamePassword.click();
 	}
 }

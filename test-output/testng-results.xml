@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-21T18:04:51 IST" name="Suite" finished-at="2025-02-21T18:04:55 IST" duration-ms="4060">
+    <groups>
+    </groups>
+    <test started-at="2025-02-21T18:04:51 IST" name="Test" finished-at="2025-02-21T18:04:55 IST" duration-ms="4060">
+      <class name="com.qa.testcases.Login">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.Login@1b7cc17c]" started-at="2025-02-21T18:04:51 IST" name="setUp" finished-at="2025-02-21T18:04:55 IST" duration-ms="3771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyContactsPageLabel()[pri:1, instance:com.qa.testcases.Login@1b7cc17c]" started-at="2025-02-21T18:04:55 IST" name="verifyContactsPageLabel" finished-at="2025-02-21T18:04:55 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactsPageLabel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.Login@1b7cc17c]" started-at="2025-02-21T18:04:55 IST" name="tearDown" finished-at="2025-02-21T18:04:55 IST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testcases.Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
